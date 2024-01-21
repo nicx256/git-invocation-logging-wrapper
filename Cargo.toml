@@ -1,0 +1,26 @@
+[package]
+name = "git-timesheet-aliases"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.31"
+dirs = "5.0.1"
+
+# [lib]
+# name = git-timesheet-aliases
+
+[[bin]]
+name = "gitim"
+path = "src/chgi.rs"
+
+# [[bin]]
+# name = "cogi"
+# path = "src/cogi.rs"
+
+# [[bin]]
+# name = "copugi"
+# path = "src/copugi.rs"
+
