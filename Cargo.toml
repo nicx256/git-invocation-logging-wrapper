@@ -14,7 +14,7 @@ dirs = "5.0.1"
 
 [[bin]]
 name = "gitim"
-path = "src/chgi.rs"
+path = "src/gitim.rs"
 
 # [[bin]]
 # name = "cogi"

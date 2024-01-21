@@ -1,8 +1,8 @@
-a wrapper around `git` named `gitim` which logs invocations, meant to be part of a personal organizer system
+# a wrapper around `git` named `gitim` which logs invocations, meant to be part of a personal organizer system
 
-productivity person Elizabeth Filips advocates<sup>[&ask;]</sup> diving into new projects half-assedly as soon as possible, as soon as you know just barely enough to possibly complete them, on the basis that delaying until you're 'ready' means you might get distracted and never even start, and you can always go back and fill in gaps in your knowledge and praxis later
+productivity person Elizabeth Filips advocates<sup>[&ast;]</sup> diving into new projects half-assedly as soon as possible, as soon as you know just barely enough to possibly complete them, on the basis that delaying until you're 'ready' means you might get distracted and never even start, and you can always go back and fill in gaps in your knowledge and praxis later
 
-i was worried this would just lead to dozens of semicompleted projects (which admittedly is better than the scores of unstarted daydreams i have currently), so i thought if i could automatically keep track of what i've worked on i could write a script later to automatically highlight things i've not worked on in a while
+i was worried this would just lead to dozens of semicompleted projects (which admittedly is better than the scores of unstarted daydreams i have currently), so i thought if i could automatically keep track of what i've worked on i could write a script later to highlight things i've not worked on in a while
 
 this program is a simple wrapper around git called `gitim` which logs every time you use it to a directory named by the environmental variable TIMESHEET_DIR (set it with something like `export TIMESHEET_DIR=~/sync/timesheets/` in your `~/.zshrc` file) before passing its arguments to git
 
@@ -17,9 +17,11 @@ the logs are in directories named like "2024-01", in files named like "2024-01-2
 
 use it exactly as you would `git`, and it will log the time, current working directory, and command issued, and show you the output from git
 
-`gitim status`
-`gitim commit -am"hi"`
-`gitim push`
+```bash
+gitim status
+gitim commit -am"hi"
+gitim push
+```
 
 etc
 
@@ -29,4 +31,4 @@ i don't know what the command line situation is over there, i think there are <a
 
 <hr>
 
-<sup>[&ask;]</sup> <small>in [the PDF available here](https://lizziefilips.gumroad.com/l/krcnc); Filips' other two tips are to focus not on results but on the increase in capabilities which will result from doing the work, and to use that as motivation by looking at the works of others with those abilities and contemplating what other possibilities are now open to you</small>
+<sup>[&ast;]</sup> <small>in [the PDF available here](https://lizziefilips.gumroad.com/l/krcnc) Filips' other two tips are to focus not on results but on the increase in capabilities which will result from doing the work, and to use that as motivation by looking at the works of others with those abilities and contemplating what other possibilities are now open to you</small>
