@@ -1,4 +1,4 @@
-# a wrapper around `git` named `gitim` which logs invocations, meant to be part of a personal organizer system
+## this is a wrapper around `git` named `gitim` which logs invocations, meant to be part of a personal organizer system
 
 productivity person Elizabeth Filips advocates<sup>[&ast;]</sup> diving into new projects half-assedly as soon as possible, as soon as you know just barely enough to possibly complete them, on the basis that delaying until you're 'ready' means you might get distracted and never even start, and you can always go back and fill in gaps in your knowledge and praxis later
 
