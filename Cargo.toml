@@ -24,3 +24,11 @@ path = "src/gitim.rs"
 # name = "copugi"
 # path = "src/copugi.rs"
 
+# binary was 4.4MB, that's absurd
+# https://github.com/johnthagen/min-sized-rust
+[profile.release]
+strip = true
+opt-level = "z" # no change
+lto = true
+codegen-units = 1 # no change
+panic = "abort"
